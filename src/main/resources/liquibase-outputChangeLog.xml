@@ -111,5 +111,7 @@
         <renameColumn newColumnName="data_pagamento"
                       oldColumnName="dataPagamento" tableName="lancamento" columnDataType="date"/>
     </changeSet>
+    
+    <include file="criar-usuarios-e-permissoes.sql"/>
 
 </databaseChangeLog>
